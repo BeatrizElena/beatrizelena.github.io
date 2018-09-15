@@ -4,11 +4,172 @@
       <title>Beatriz Ortiz - Portfolio</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
       <link href="assets/styles/main.css"rel="stylesheet" type="text/css">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body class="container-fluid">
+      <div class="parallax"></div>
+      <div class="scrolling-content" style="font-size:36px">
+        <section id="header">
+          <header>
+            <h1><span class="animated-long fadeIn">Beatriz</span> <span class="animated-long fadeIn">Ortiz</span></h1>
+            <p>Full-Stack Web Developer</p>
+          </header>
+          <footer id="footer-in-header">
+            <a href="#about-me" class="button style2 scrolly-middle animated-short fadeInUp">Portfolio</a>
+          </footer>
+        </section>
+    
+        <!-- About-me -->
+        <section id="about-me">
+          <header>
+            <h2>About Me</h2>
+          </header>
+          
+          <img class="my-pic-image" src="./assets/images/profilePic.jpg" alt="" />
+          <div id="catch" class="container"></div>
+            <p class="about-me-description">I'm Beatriz, a life-long learner and problem solver who recently added full stack web development to my portfolio of skills. 
+              In addition to web development; some key strengths I offer include customer service, problem-solving, presentation ability, and strong communication skills in two languages.
+             </p>
+            <p class="about-me-description">Being a teacher and interpreter helped me develop those additional strengths. 
+              In those roles, I always enjoyed the constant process of adding to my 
+                knowledge base so I could provide the best customer experience possible. 
+                My past roles have also led to the development of solid planning skills while also teaching me the flexibibity needed 
+                to quickly react to change.</p>
+    
+            <p class="about-me-description">I would be thrilled to become a member of a developer team 
+              where I can add my perspective and skills, and where 
+              I can continue to grow as a developer and use the power of coding to have a measurable impact on issues customers face.</p>
+            <br />
+            <footer id="footer-in-about-me">
+                <a id="btn-resume" class="button style2" href="#link-to-resume" target="_blank">View Resume</a><br />
+              </footer>
+          </div>
+          <!-- <footer id="footer-in-about-me">
+            <a id="btn-resume" class="button style2" href="#link-to-resume" target="_blank">View Resume</a><br />
+          </footer> -->
+        </section>
+    
+        <article class="container box style2">
+          <header>
+            <h2>Projects</h2>
+          </header>
+        </article>
+    
+        <section id="projects">
+          <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 projects" id="interpreter">
+                  <div class="hidden-text">
+                      <h2>Interpreter Assistant</h2>
+                      <p>Interpreters at places such as Dana Farber must interpret for a wide variety of conditions and in a fast-paced environment. This app will help the interpreter feel better prepared to do the best job possible.
+                        I used Mongo, Express, JavaScript/JQuery, and NodeJS.
+                      </p>
+                      <a href="https://beatrizelena.github.io/interpreter-assistant-client/" target="_blank">See it live</a>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-lg-6 projects"  id="inventory">
+                  <div class="hidden-text">
+                      <h2>Inventory Management Solutions</h2>
+                      <p>I was a team contributor focusing on the backend to create an app that can take merchandise items from a warehouse and add them to a company's inventory.
+                        We worked with Mongo, Express, JavaScript/jQuery, and NodeJS.
+                        We used Agile practices and tools such as Jira and Trello. It was also an opportunity to hone our Git/GitHub skills.
+                      </p>
+                      <a href="https://ga-teamcafe.github.io/inventory-manager-client/" target="_blank">See it live</a>
+                  </div>
+                </div>
+    
+                <div class="col-12 col-lg-6 projects"  id="ready">
+                  <div class="hidden-text">
+                      <h2>Ready!</h2>
+                      <p>An app to help interpreters be better prepared is the solution to a problem I defined a while ago but only recently learned the tools I wanted to use to solve it.
+                        This first iteration uses Rails, PostgreSQL, and JavaScript.
+                      </p>
+                      <a href="https://beatrizelena.github.io/Ready-Client/" target="_blank">See it live</a>
+                  </div>
+                </div>
+    
+                <div class="col-12 col-lg-6 projects"  id="tic-tac-toe">
+                  <div class="hidden-text">
+                      <h2>Tic Tac Toe</h2>
+                      <p>A project that allowed us to demonstrate that we could design a game and save players' moves to an external API.
+                        I used JavaScript, jQuery, HTML, and CSS.
+                      </p>
+                      <a href="https://beatrizelena.github.io/tic-tac-toe/" target="_blank">See it live</a>
+                  </div>
+                  </div>
+            </div>
+    
+          </div>
+        </section>
+    
+        <article class="container box style2">
+          <header>
+            <h2>Skills</h2>
+          </header>
+        </article>
+    
+        <section id="skills">
+          <div class="container">
+            <div class="row skill-icons">
+              <div class="col-12 skills" id="skill-row1">
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-jquery-plain"><sub class="tiny">jQuery</sub></i>
+                <i class="devicon-css3-plain-wordmark"></i>
+                <i class="devicon-git-plain-wordmark"></i>
+              </div>
+    
+              <div class="col-12 skills" id="skill-row2">
+                  <i class="devicon-github-plain-wordmark"></i>
+                  <i class="devicon-heroku-original-wordmark"></i>
+                  <i class="devicon-html5-plain-wordmark"></i>
+                  <i class="devicon-bootstrap-plain"><sub class="tiny">Bootstrap</sub></i>
+              </div>
+    
+              <div class="col-12 skills" id="skill-row3">
+                  <i class="devicon-nodejs-plain-wordmark"></i>
+                  <i class="devicon-mongodb-plain"><sub class="tiny">MongoDB</sub></i>
+                  <i class="devicon-postgresql-plain"><sub class="tiny">PostgreSQL</sub></i>
+                  <i class="devicon-express-original"><sub class="tiny">Express</sub></i>
+              </div>
+    
+              <div class="col-12 skills" id="skill-row4">
+                  <i class="devicon-rails-plain-wordmark"></i>
+                  <i class="devicon-ruby-plain-wordmark"></i>
+                  <i class="devicon-sass-original"></i>
+                  <i class="devicon-docker-plain"><sub class="tiny">Docker</sub></i>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+    
+        <!-- Contact -->
+        <article class="container box style-contact">
+          <header>
+            <h2>Contact Me</h2>
+            <p> <span class="email">beatriz.elena.ortiz3@gmail.com</span> <br>401-751-4707</p>
+          </header>
+        </article>
+    
+        <section id="footer">
+            <div class="container">
+              <div class="row skill-icons">
+                <div class="col-12 skills" id="contact-row1">
+                        <i><a href="mailto:beatriz.elena.ortiz3@gmail.com" class="icon fa fa-envelope" target="_blank"></a></i>
+                        <i><a href="https://github.com/beatrizelena" class="icon fa fa-github" target="_blank"><span class="label"></span></a></i>
+                        <i><a href="https://www.linkedin.com/in/beatriz-e-ortiz/" class="icon fa fa-linkedin-square"  target="_blank"><span class="label"></span></a></i>
+                </div>
+              </div>
+            </div>
+          </section>
       
+    </div>
+      <div class="parallax"></div>
     </body>
 </html>
