@@ -36,12 +36,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
 }
 
-hr {
-  border: 0;
-  border-top: solid 1.5px #dad9d9;
-  margin: 2em 0;
-}
-
 .tiny {
   font-size: 0.15em;
 }
@@ -94,15 +88,15 @@ article:last-child {
   margin-bottom: 0;
 }
 
-header {
+/* header {
   margin-bottom: 1em;
-}
+} */
 
-header p {
+/* header p {
   display: block;
   margin: 0.5em 0 0 0;
   padding: 0 0 1.5em 0;
-}
+} */
 
 #header {
   background: rgba(0, 0, 0, 0.365);
@@ -143,33 +137,35 @@ header p {
 }
 
 #footer-in-header {
+  background: rgba(0, 0, 0, 0.365);
   position: absolute;
-  /* bottom: 10em; */
+  bottom: 5em;
   margin: 0;
   width: 100%;
 }
 
-#footer-in-header::after {
+/* #footer-in-header::after {
+  background: rgba(0, 0, 0, 0.365);
   content: '';
   border-left: solid 1.5px rgba(255, 255, 255, 0.7);
   display: block;
   position: absolute;
-  /* bottom: -9em; */
+  bottom: -9em;
   left: 50%;
   height: 5em;
-}
+} */
 
-#header:footer::before {
-  content: '';
-  display: block;
+/* #header:footer::before {
+  content: ''; */
+  /* display: block; */
   /* margin-bottom: -3px; */
-  margin-left: -45px;
-  position: absolute;
+  /* margin-left: -45px; */
+  /* position: absolute; */
   /* bottom: 12.5em; */
-  left: 50%;
+  /* left: 50%; */
   /* height: 166px; */
-  width: 90px;
-}
+  /* width: 90px; */
+/* } */
 
 .arrow-wrap {
   position:absolute;
@@ -191,11 +187,11 @@ header p {
   float:left;
   position:relative;
   width: 0px;
-height: 0px;
-border-style: solid;
-border-width: 3em 3em 0 3em;
-border-color: #ffffff transparent transparent transparent;
-transform:rotate(360deg)
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #ffffff transparent transparent transparent;
+  transform:rotate(360deg)
 }
 
 .arrow:after {
@@ -204,11 +200,11 @@ transform:rotate(360deg)
   top:-3.2em;
   left:-3em;
   width: 0px;
-height: 0px;
-border-style: solid;
-border-width: 3em 3em 0 3em;
-border-color: #888 transparent transparent transparent;
-transform:rotate(360deg)
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #888 transparent transparent transparent;
+  transform:rotate(360deg)
 }
 
 
