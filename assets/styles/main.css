@@ -102,20 +102,20 @@ article:last-child {
   background: rgba(0, 0, 0, 0.365);
   color: rgba(90, 143, 120, 0.666);
   margin: 0;
-  padding: 10em 0 10em 0;
+  padding: 10em 0 23em 0;
   text-shadow: 0 0 0.5px rgba(250, 250, 250, 0.65);
   /* height: 675px; */
 }
 
-#header header {
+/* #header header {
   display: inline-block;
-  padding: 0 0 4em 0;
-}
+  padding: 0 0 0 0;
+} */
 
 #header header h1 {
   color: rgb(250, 250, 250);
   font-weight: 800;
-  font-size: 8em;
+  font-size: 9em;
   letter-spacing: 9px;
 }
 
@@ -123,7 +123,7 @@ article:last-child {
   border-top: solid 1px rgba(185, 244, 48, 0.694);
   color: rgb(250, 250, 250);
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.45);
-  font-size: 3.5em;
+  font-size: 4em;
   letter-spacing: 3px;
   margin-top: 0.4em;
   padding: 0;
@@ -180,14 +180,14 @@ article:last-child {
   height: 290px;
   width: 100%;
 } */
-
+/* 
 .arrow-wrap {
   position:absolute;
   z-index:1;
   left:48%;
   top:100em;
   margin-left:-5em;
-  /* background:#111; */
+  background:#111;
   width:10em;
   height:10em;
   padding:4em 2em;
@@ -205,7 +205,7 @@ article:last-child {
   border-style: solid;
   border-width: 3em 3em 0 3em;
   border-color: #ffffff transparent transparent transparent;
-  /* transform:rotate(360deg) */
+  transform:rotate(360deg)
 }
 
 .arrow:after {
@@ -218,8 +218,8 @@ article:last-child {
   border-style: solid;
   border-width: 3em 3em 0 3em;
   border-color: #888 transparent transparent transparent;
-  /* transform:rotate(360deg) */
-}
+  transform:rotate(360deg)
+} */
 
 
 #about-me {
