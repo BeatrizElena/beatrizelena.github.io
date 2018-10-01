@@ -67,11 +67,6 @@ h6 a {
   font-size: 2em;
 }
 
-/* .scrolling-content {
-  align-items: center;
-  font-size: 36px;
-} */
-
 #top {
   background: rgba(0, 0, 0, 0.365);
   color: rgba(90, 143, 120, 0.666);
@@ -336,7 +331,8 @@ i {
     letter-spacing: 1px;
   }
 
-  #about-me p {
+  .grid div p {
+    color: white;
     font-size: 0.33em;
     letter-spacing: 1px;
     padding: 0;
@@ -375,5 +371,185 @@ i {
   #ready,
   #tic-tac-toe {
     height: 150px;
+  }
+}
+/* iPhone X */
+@media (max-width: 414px) {
+  #top {
+    padding: 0.4em 0 2em 0;
+  }
+
+  #top h1 {
+    font-size: 4em;
+  }
+
+  #top p {
+    font-size: 2.2em;
+  }
+
+  #about-me-heading {
+    font-size: 1em;
+  }
+
+  .grid div p {
+    color: white;
+    font-size: 0.53em;
+    letter-spacing: 1px;
+    padding: 0;
+  }
+
+  #btn-resume {
+    font-size: 0.7em;
+    position: inherit;
+  }
+
+  .about-me-description {
+    font-size: 0.25em;
+    letter-spacing: 0.2em;
+  }
+
+  .headings {
+    margin: 0.05em, auto;
+    padding: 0.1em 1em;
+  }
+
+  /* skills */
+  i {
+    font-size: 1.5em;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  #skill-row2,
+  #skill-row3,
+  #skill-row4 {
+    margin-top: 2em;
+  }
+
+  #interpreter,
+  #inventory,
+  #ready,
+  #tic-tac-toe {
+    height: 150px;
+  }
+}
+/* iPad */
+@media (max-width: 768px) {
+  #top {
+    padding: 0.4em 0 2em 0;
+  }
+
+  #top h1 {
+    font-size: 4.5em;
+  }
+
+  #top p {
+    font-size: 3.8em;
+  }
+
+  #about-me-heading {
+    font-size: 2em;
+  }
+
+  .grid div p {
+    color: white;
+    font-size: 0.93em;
+    letter-spacing: 1px;
+    padding: 0;
+  }
+
+  #btn-resume {
+    font-size: 1.1em;
+    position: inherit;
+  }
+
+  .about-me-description {
+    font-size: 0.55em;
+    letter-spacing: 0.2em;
+  }
+
+  .headings {
+    margin: 0.05em, auto;
+    padding: 0.1em 1em;
+  }
+
+  /* skills */
+  i {
+    font-size: 3em;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #skill-row2,
+  #skill-row3,
+  #skill-row4 {
+    margin-top: 2.5em;
+  }
+
+  #interpreter,
+  #inventory,
+  #ready,
+  #tic-tac-toe {
+    height: 250px;
+  }
+}
+/* iPad Pro*/
+@media (max-width: 1024px) {
+  #top {
+    padding: 0.4em 0 2em 0;
+  }
+
+  #top h1 {
+    font-size: 8em;
+  }
+
+  #top p {
+    font-size: 6.5em;
+  }
+
+  #about-me-heading {
+    font-size: 4em;
+  }
+
+  .grid div p {
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    padding: 0;
+  }
+
+  #btn-resume {
+    font-size: 1.5em;
+    position: inherit;
+  }
+
+  .about-me-description {
+    font-size: 0.55em;
+    letter-spacing: 0.2em;
+  }
+
+  .headings {
+    margin: 0.05em, auto;
+    padding: 1em 1em;
+  }
+
+  /* skills */
+  i {
+    font-size: 5em;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #skill-row2,
+  #skill-row3,
+  #skill-row4 {
+    margin-top: 2.5em;
+  }
+
+  #interpreter,
+  #inventory,
+  #ready,
+  #tic-tac-toe {
+    height: 450px;
   }
 }
